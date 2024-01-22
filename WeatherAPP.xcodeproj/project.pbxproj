@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B928D9D62B23088F0058B9EB /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B928D9D52B23088F0058B9EB /* Temperature.swift */; };
 		B99254E12AE4F0A9007FC97E /* WeatherAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99254E02AE4F0A9007FC97E /* WeatherAPPApp.swift */; };
 		B99254E32AE4F0A9007FC97E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99254E22AE4F0A9007FC97E /* ContentView.swift */; };
 		B99254E52AE4F0AA007FC97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B99254E42AE4F0AA007FC97E /* Assets.xcassets */; };
@@ -14,6 +15,13 @@
 		B99254F22AE4F0AA007FC97E /* WeatherAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99254F12AE4F0AA007FC97E /* WeatherAPPTests.swift */; };
 		B99254FC2AE4F0AA007FC97E /* WeatherAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99254FB2AE4F0AA007FC97E /* WeatherAPPUITests.swift */; };
 		B99254FE2AE4F0AA007FC97E /* WeatherAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99254FD2AE4F0AA007FC97E /* WeatherAPPUITestsLaunchTests.swift */; };
+		B992550F2AE642E8007FC97E /* WeatherSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B992550E2AE642E8007FC97E /* WeatherSummaryView.swift */; };
+		B99255112AE650BB007FC97E /* HourlyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99255102AE650BB007FC97E /* HourlyForecastView.swift */; };
+		B99255132AE68B24007FC97E /* DailyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99255122AE68B24007FC97E /* DailyForecastView.swift */; };
+		B99255152AE778B5007FC97E /* RangedProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99255142AE778B5007FC97E /* RangedProgressView.swift */; };
+		B993C6972B01F4FA009EDA6E /* TemperatureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B993C6962B01F4FA009EDA6E /* TemperatureTest.swift */; };
+		B99688DC2B5D4F450094036D /* Weathersnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99688DB2B5D4F450094036D /* Weathersnapshot.swift */; };
+		B99688DE2B5D50670094036D /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99688DD2B5D50670094036D /* WeatherCondition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B928D9D52B23088F0058B9EB /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		B99254DD2AE4F0A9007FC97E /* WeatherAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99254E02AE4F0A9007FC97E /* WeatherAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPPApp.swift; sourceTree = "<group>"; };
 		B99254E22AE4F0A9007FC97E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +53,13 @@
 		B99254F72AE4F0AA007FC97E /* WeatherAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99254FB2AE4F0AA007FC97E /* WeatherAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPPUITests.swift; sourceTree = "<group>"; };
 		B99254FD2AE4F0AA007FC97E /* WeatherAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B992550E2AE642E8007FC97E /* WeatherSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSummaryView.swift; sourceTree = "<group>"; };
+		B99255102AE650BB007FC97E /* HourlyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyForecastView.swift; sourceTree = "<group>"; };
+		B99255122AE68B24007FC97E /* DailyForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyForecastView.swift; sourceTree = "<group>"; };
+		B99255142AE778B5007FC97E /* RangedProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangedProgressView.swift; sourceTree = "<group>"; };
+		B993C6962B01F4FA009EDA6E /* TemperatureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureTest.swift; sourceTree = "<group>"; };
+		B99688DB2B5D4F450094036D /* Weathersnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weathersnapshot.swift; sourceTree = "<group>"; };
+		B99688DD2B5D50670094036D /* WeatherCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,10 @@
 		B99254D42AE4F0A9007FC97E = {
 			isa = PBXGroup;
 			children = (
+				B99688DD2B5D50670094036D /* WeatherCondition.swift */,
+				B99688DB2B5D4F450094036D /* Weathersnapshot.swift */,
+				B993C6962B01F4FA009EDA6E /* TemperatureTest.swift */,
+				B99255142AE778B5007FC97E /* RangedProgressView.swift */,
 				B99254DF2AE4F0A9007FC97E /* WeatherAPP */,
 				B99254F02AE4F0AA007FC97E /* WeatherAPPTests */,
 				B99254FA2AE4F0AA007FC97E /* WeatherAPPUITests */,
@@ -96,6 +116,10 @@
 			children = (
 				B99254E02AE4F0A9007FC97E /* WeatherAPPApp.swift */,
 				B99254E22AE4F0A9007FC97E /* ContentView.swift */,
+				B992550E2AE642E8007FC97E /* WeatherSummaryView.swift */,
+				B99255102AE650BB007FC97E /* HourlyForecastView.swift */,
+				B99255122AE68B24007FC97E /* DailyForecastView.swift */,
+				B928D9D52B23088F0058B9EB /* Temperature.swift */,
 				B99254E42AE4F0AA007FC97E /* Assets.xcassets */,
 				B99254E62AE4F0AA007FC97E /* Preview Content */,
 			);
@@ -257,7 +281,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B99688DC2B5D4F450094036D /* Weathersnapshot.swift in Sources */,
+				B99255112AE650BB007FC97E /* HourlyForecastView.swift in Sources */,
+				B99255132AE68B24007FC97E /* DailyForecastView.swift in Sources */,
+				B99255152AE778B5007FC97E /* RangedProgressView.swift in Sources */,
+				B99688DE2B5D50670094036D /* WeatherCondition.swift in Sources */,
 				B99254E32AE4F0A9007FC97E /* ContentView.swift in Sources */,
+				B992550F2AE642E8007FC97E /* WeatherSummaryView.swift in Sources */,
+				B928D9D62B23088F0058B9EB /* Temperature.swift in Sources */,
 				B99254E12AE4F0A9007FC97E /* WeatherAPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B993C6972B01F4FA009EDA6E /* TemperatureTest.swift in Sources */,
 				B99254F22AE4F0AA007FC97E /* WeatherAPPTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
